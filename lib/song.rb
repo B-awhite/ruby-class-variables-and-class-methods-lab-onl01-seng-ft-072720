@@ -20,14 +20,12 @@ class Song
   
   def self.genre 
     @@genre 
-  end 
-  
-  def self.artist 
-    @@artist.uniq 
-  end 
+  end
   
   def genre=(genre)
     @genre = genre 
   end 
+  
+  
   
 end   
