@@ -25,4 +25,8 @@ class Song
     @@artist.uniq 
   end 
   
+  def genre=(genre)
+    @genre = genre 
+  end 
+  
 end   
