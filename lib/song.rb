@@ -26,6 +26,8 @@ class Song
     @genre = genre 
   end 
   
-  
+  def self.artist 
+    @@artist.uniq 
+  end
   
 end   
